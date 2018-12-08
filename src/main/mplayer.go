@@ -12,8 +12,7 @@ import (
 )
 
 var lib *mlib.MusicManager
-var id int = 1
-var str1, signal chan int
+var id int
 
 func handleLibCommands(tokens []string) {
 	switch tokens[1] {
